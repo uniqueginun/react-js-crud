@@ -24,11 +24,9 @@ class App extends Component {
     id: null
   };
 
-  setModal() {
+  toggle = () => {
     this.setState({ modal: !this.state.modal });
-  }
-
-  toggle = () => this.setModal();
+  };
 
   style = { padding: ".5rem" };
 
